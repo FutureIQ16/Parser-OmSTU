@@ -16,7 +16,6 @@ def parse():
             descriptiontest = data.text
             description = descriptiontest.replace('\n\n', '') + '\n'  # записываем с него текст
     description.strip() #убираем при выводе в файл верхние и нижние сносы строк
-    #description = description.replace('', '') #убираем при выводе в файл сносы строк между названиями факультетов
     return(description)
 
 
